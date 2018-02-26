@@ -1,0 +1,24 @@
+{
+  "name": "ipfsdemo",
+  "version": "1.0.0",
+  "description": "IPFS Share Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 12345 public",
+    "compile": "browserify src/app.js -o public/app.js -d"
+  },
+  "author": "Sri Harsha Seethalam",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.1.0",
+    "http-server": "^0.11.1",
+    "ipfs": "^0.25.1",
+    "y-array": "^10.1.4",
+    "y-indexeddb": "^8.1.9",
+    "y-ipfs-connector": "^2.1.2",
+    "y-map": "^10.1.3",
+    "y-memory": "^8.0.9",
+    "y-text": "^9.5.1",
+    "yjs": "^12.3.3"
+  }
+}
